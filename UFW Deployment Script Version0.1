@@ -1,0 +1,44 @@
+#BASH UFW firewall deployment script
+
+#install UFW
+apt update
+apt upgrade 
+sleep 1
+apt-get isntall ufw 
+sleep 1
+ufw --version 
+
+#update ufw
+apt update
+apt upgrade 
+sleep 1
+apt-get update ufw
+sleep 1
+ufw --version
+
+
+#enable ufw
+enable ufw
+
+#disable ufw
+disable ufw
+
+#set aplication rules
+
+#ip whitelisting 
+
+
+#set port rules
+
+#ufw default 
+sudo ufw default allow outgoing
+sudo ufw default deny incoming
+
+#enable IPV6
+
+#disable IPV6
+
+#enable IPV4
+
+#disable IPV6
+
